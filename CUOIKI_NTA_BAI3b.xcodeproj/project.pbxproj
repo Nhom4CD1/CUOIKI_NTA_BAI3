@@ -14,6 +14,9 @@
 		058415C81F0CFD75000768FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058415C61F0CFD75000768FE /* LaunchScreen.storyboard */; };
 		058415D31F0CFD76000768FE /* CUOIKI_NTA_BAI3bTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058415D21F0CFD75000768FE /* CUOIKI_NTA_BAI3bTests.swift */; };
 		058415DE1F0CFD76000768FE /* CUOIKI_NTA_BAI3bUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058415DD1F0CFD76000768FE /* CUOIKI_NTA_BAI3bUITests.swift */; };
+		058415F01F0CFE23000768FE /* ModelCongViec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058415EF1F0CFE23000768FE /* ModelCongViec.swift */; };
+		058415F41F0CFED5000768FE /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058415F31F0CFED5000768FE /* DataSource.swift */; };
+		058415F61F0CFF58000768FE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058415F51F0CFF58000768FE /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		058415D91F0CFD76000768FE /* CUOIKI_NTA_BAI3bUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUOIKI_NTA_BAI3bUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		058415DD1F0CFD76000768FE /* CUOIKI_NTA_BAI3bUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUOIKI_NTA_BAI3bUITests.swift; sourceTree = "<group>"; };
 		058415DF1F0CFD77000768FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058415EF1F0CFE23000768FE /* ModelCongViec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelCongViec.swift; sourceTree = "<group>"; };
+		058415F31F0CFED5000768FE /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		058415F51F0CFF58000768FE /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 		058415BC1F0CFD73000768FE /* CUOIKI_NTA_BAI3b */ = {
 			isa = PBXGroup;
 			children = (
+				058415EE1F0CFDE4000768FE /* Controller */,
+				058415ED1F0CFDD1000768FE /* DataSource */,
+				058415EC1F0CFDCA000768FE /* View */,
+				058415EB1F0CFDAE000768FE /* Model */,
 				058415BD1F0CFD74000768FE /* AppDelegate.swift */,
 				058415BF1F0CFD74000768FE /* ViewController.swift */,
 				058415C11F0CFD74000768FE /* Main.storyboard */,
@@ -123,6 +133,37 @@
 				058415DF1F0CFD77000768FE /* Info.plist */,
 			);
 			path = CUOIKI_NTA_BAI3bUITests;
+			sourceTree = "<group>";
+		};
+		058415EB1F0CFDAE000768FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				058415EF1F0CFE23000768FE /* ModelCongViec.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		058415EC1F0CFDCA000768FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		058415ED1F0CFDD1000768FE /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				058415F31F0CFED5000768FE /* DataSource.swift */,
+				058415F51F0CFF58000768FE /* TableViewCell.swift */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		058415EE1F0CFDE4000768FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058415F61F0CFF58000768FE /* TableViewCell.swift in Sources */,
+				058415F01F0CFE23000768FE /* ModelCongViec.swift in Sources */,
 				058415C01F0CFD74000768FE /* ViewController.swift in Sources */,
+				058415F41F0CFED5000768FE /* DataSource.swift in Sources */,
 				058415BE1F0CFD74000768FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
